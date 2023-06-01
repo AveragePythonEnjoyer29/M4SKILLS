@@ -1,2 +1,2 @@
 # M4SKILLS
-all hail MySQL and Apache
+all hail PostgreSQL and Apache
