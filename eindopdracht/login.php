@@ -24,7 +24,7 @@ try {
     echo ($user && $user['password'] == $login_password) ? "login werkt" : "login werkt niet";
 
 } catch (PDOException $exc) { 
-    die("Owo foutje terwijl we met de database aan het connection waren :3" . $exc->getMessage());
+    die("Owo foutje terwijl we met de database aan het connecten waren :3" . $exc->getMessage());
 }
 
 ?>
